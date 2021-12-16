@@ -130,7 +130,7 @@ for i in range(len(df_json)) :
 #membuat kolom
 col1, col2 = st.columns(2)
 with col1 :
-    st.markdown("## Negara dengan jumlah produksi minyak terbesar pada tahun ()".format(T))
+    st.markdown("## Negara dengan jumlah produksi minyak terbesar pada tahun",T)
     st.text(total_production)
     st.text(country_code2)
     st.text(name_country)
@@ -183,7 +183,7 @@ for i in range(len(df_json)) :
 #membuat kolom
 col3, col4 = st.columns(2)
 with col3 :
-    st.markdown("## Negara dengan jumlah produksi minyak terkecil pada tahun ()".format(T))
+    st.markdown("## Negara dengan jumlah produksi minyak terkecil pada tahun",T)
     st.text(total_production)
     st.text(country_code2)
     st.text(name_country)
