@@ -12,6 +12,7 @@ df_json = pd.DataFrame.from_dict(data_code, orient='columns')
 #mengubah tampilan streamlit menjadi lebih wide
 st.set_page_config(page_title='Aplikasi Penampil Produksi Minyak', layout='wide')
 st.set_option('deprecation.showPyplotGlobalUse', False)
+st.title('Aplikasi Perhitungan Statistik Produksi Minyak Negara')
 
 #menerima inputan nama negara
 name = st.text_input("Please enter the name of country : ")
